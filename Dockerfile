@@ -10,7 +10,7 @@ FROM ubuntu:24.04
 # Install Nginx.
 RUN \
   apt-get update && \
-  apt-get install -y nginx && \
+  apt-get install -y nginx && 
 
 # Define mountable directories.
 VOLUME ["/etc/nginx/sites-enabled", "/etc/nginx/certs", "/etc/nginx/conf.d", "/var/log/nginx", "/var/www/html"]

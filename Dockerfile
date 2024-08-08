@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM ubuntu 24.04
+FROM ubuntu:24.04
 
 # Install Nginx.
 RUN \
